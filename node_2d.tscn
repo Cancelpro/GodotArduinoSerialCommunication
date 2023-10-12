@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbt6ej8kljwj7"]
+
+[ext_resource type="Script" path="res://Arduino.cs" id="1_grtg8"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_grtg8")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 1153.0
+offset_bottom = 654.0
+theme_override_font_sizes/normal_font_size = 60
